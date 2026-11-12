@@ -33,3 +33,34 @@ const myFunction = function(){
 
 
 
+///+++++++++++++++++++++++++++++++++++++++
+
+
+// there are two type of memories 
+
+// stack (primtive) ,heap (non-primitive)
+
+// primitive me jaate hi boolean number,string :
+// heap ka matlb hi referrence 
+
+
+let myYoutubeName = "mohd.sameer@gmail.com"
+ let anotherName= "king is always king "
+
+ console.log(anotherName);
+  console.log(myYoutubeName);
+
+
+  let userOne ={
+     email: "user@goolge.com",
+     upiId :  "user@ybl"
+  }
+ let userTwo = userOne
+ userTwo.email = "King@gmail.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
+ 
+ 
+
